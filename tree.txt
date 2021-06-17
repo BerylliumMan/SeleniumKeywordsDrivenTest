@@ -1,0 +1,33 @@
+©¦¡ªrun.py
+©¦     
+©À©¤BasePages
+©¦  ©¦  fw_BasePage.py
+©¦  ©¦  getVerifyCode.py
+©¦  ©¦____verifyCodePic    
+©¦        
+©À©¤Cases
+©¦  ©¦  getCases.py  
+©¦  ©¸©¤testCases.xlsx
+©¦  
+©À©¤MethodWarehouse
+©¦  ©¦___ methods.py
+©¦          
+©À©¤Report
+©¦  ©¦  CreateReport.py
+©¦  ©¦©¤ Report_2021-06-07_173055.html
+©¦  ©¦  
+©¦  ©À©¤FailedPictures
+©¦  ©¦      
+©¦  ©À©¤ResultJson
+©¦  ©¦  ©¦  jsonFile.json
+©¦  ©¦  ©¦©¤ WriteJson.py  
+©¦  ©¦     
+©¦  ©À©¤©¤Templates
+©¦     ©¦  logo.png
+©¦     ©¦©¤ template.html
+©¦          
+©¸©¤RunTest
+    ©¦
+    ©¦©¤ RunCases.py
+
+            

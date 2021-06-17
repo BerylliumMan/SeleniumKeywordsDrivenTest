@@ -1,0 +1,240 @@
+{
+    "testResult": [
+        {
+            "CaseNo": 1,
+            "module": "网络配置",
+            "tittle": "使用错误ipv4修改网口1ip",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "2s"
+        },
+        {
+            "CaseNo": 2,
+            "module": "网络配置",
+            "tittle": "使用错误ipv6修改网口1ip",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "3s"
+        },
+        {
+            "CaseNo": 3,
+            "module": "网络配置",
+            "tittle": "修改网口1ip",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "6s"
+        },
+        {
+            "CaseNo": 4,
+            "module": "网络配置",
+            "tittle": "修改网口2ip",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "6s"
+        },
+        {
+            "CaseNo": 5,
+            "module": "网络配置",
+            "tittle": "错误索引号添加子接口1",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "2s"
+        },
+        {
+            "CaseNo": 6,
+            "module": "网络配置",
+            "tittle": "错误索引号添加子接口2",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "2s"
+        },
+        {
+            "CaseNo": 7,
+            "module": "网络配置",
+            "tittle": "使用已存在网段添加子接口",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "3s"
+        },
+        {
+            "CaseNo": 8,
+            "module": "网络配置",
+            "tittle": "使用错误IP添加子接口",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "3s"
+        },
+        {
+            "CaseNo": 9,
+            "module": "网络配置",
+            "tittle": "添加子接口成功",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "5s"
+        },
+        {
+            "CaseNo": 10,
+            "module": "网络配置",
+            "tittle": "添加子接口时使用已存在的索引号",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "2s"
+        },
+        {
+            "CaseNo": 11,
+            "module": "网络配置",
+            "tittle": "编辑子接口",
+            "status": "Fail",
+            "log": "<a href=../Report/FailedPictures/编辑子接口_2021-06-16_165914.png>查看截图</a>",
+            "spendTime": "17s"
+        },
+        {
+            "CaseNo": 12,
+            "module": "网络配置",
+            "tittle": "删除子接口",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "4s"
+        },
+        {
+            "CaseNo": 13,
+            "module": "网络配置",
+            "tittle": "使用已存在网段添加桥接口",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "4s"
+        },
+        {
+            "CaseNo": 14,
+            "module": "网络配置",
+            "tittle": "使用错误ipv4添加桥接口",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "2s"
+        },
+        {
+            "CaseNo": 15,
+            "module": "网络配置",
+            "tittle": "使用错误ipv6添加桥接口",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "2s"
+        },
+        {
+            "CaseNo": 16,
+            "module": "网络配置",
+            "tittle": "添加桥接口成功",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "6s"
+        },
+        {
+            "CaseNo": 17,
+            "module": "网络配置",
+            "tittle": "添加已存在的桥名称设置桥接口",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "2s"
+        },
+        {
+            "CaseNo": 18,
+            "module": "网络配置",
+            "tittle": "编辑桥接口",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "8s"
+        },
+        {
+            "CaseNo": 19,
+            "module": "网络配置",
+            "tittle": "删除桥接口",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "4s"
+        },
+        {
+            "CaseNo": 20,
+            "module": "网络配置",
+            "tittle": "新增静态路由输入非法目的网段",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "3s"
+        },
+        {
+            "CaseNo": 21,
+            "module": "网络配置",
+            "tittle": "新增静态路由输入非法网关(下一跳)",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "3s"
+        },
+        {
+            "CaseNo": 22,
+            "module": "网络配置",
+            "tittle": "新增出接口为任意的静态路由",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "4s"
+        },
+        {
+            "CaseNo": 23,
+            "module": "网络配置",
+            "tittle": "新增出接口为网口1静态路由",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "4s"
+        },
+        {
+            "CaseNo": 24,
+            "module": "网络配置",
+            "tittle": "新增目的网段已存在的静态路由",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "3s"
+        },
+        {
+            "CaseNo": 25,
+            "module": "网络配置",
+            "tittle": "编辑静态路由目的网段为已存在",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "3s"
+        },
+        {
+            "CaseNo": 26,
+            "module": "网络配置",
+            "tittle": "编辑静态路由的目的网段为正确信息",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "4s"
+        },
+        {
+            "CaseNo": 27,
+            "module": "网络配置",
+            "tittle": "编辑静态路由的出接口",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "4s"
+        },
+        {
+            "CaseNo": 28,
+            "module": "网络配置",
+            "tittle": "删除静态路由",
+            "status": "Success",
+            "log": "<a href=#>执行成功</a>",
+            "spendTime": "2s"
+        }
+    ],
+    "testPass": 27,
+    "testAll": 28,
+    "testError": 1,
+    "testSkip": 0,
+    "beginTime": "2021-06-16 16:58:09",
+    "totalTime": "138s",
+    "query_total_count": 28,
+    "query_lable_count": 28,
+    "query_lable_percent": "100.00%",
+    "testVersion": "v1.1.0.3",
+    "testAPI": "https://192.168.11.178",
+    "testName": "工业防火墙"
+}

@@ -1,0 +1,1 @@
+测试报告样式放于js目录下，测试截图放在FailedPictures，移动测试报告文件时需要与js和FailedPictures一起移动
