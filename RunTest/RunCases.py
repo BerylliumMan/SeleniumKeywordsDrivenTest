@@ -4,6 +4,8 @@
 """
 import time
 
+from selenium import webdriver
+
 from BasePages.fw_BasePage import login
 from MethodWarehouse.methods import methodCage
 from Cases.getCases import get_Cases
@@ -17,7 +19,12 @@ class runCase:
         if driver == 'FW':
             self.driver = login().setDriver(testAPI)
         else:
-            pass
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.add_argument('--ignore-certificate-errors')
+            self.driver = webdriver.Chrome(options=chrome_options)
+            self.driver.maximize_window()
+            self.driver.get(testAPI)
+        time.sleep(2)
         return self.driver
 
     def test_Case(self, loginMode, driver, testVersion, testAPI, testName, filename):
