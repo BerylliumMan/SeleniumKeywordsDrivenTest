@@ -5,7 +5,7 @@ from RunTest.RunCases import runCase
 loginMode: 0,执行每个用例后关闭浏览器并重新打开
            1,执行所有用例只登录一次
 driver: FW,防火墙
-        ohter,非防护墙
+        非防护墙
 testVersion: 测试版本号
 testAPI：ip地址
 testName：项目名称
