@@ -5,9 +5,9 @@
 
 import time
 from selenium import webdriver
-from BasePages.getVerifyCode import get_pictures
+from BasePages.getVerifyCode import fw_get_pictures
 
-class login:
+class FWlogin:
     def __init__(self):
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument('--ignore-certificate-errors')
@@ -22,7 +22,7 @@ class login:
             self.driver.get(testAPI)
             self.driver.find_element('xpath', "//input[@placeholder='用户名']").send_keys('admin')
             self.driver.find_element('xpath', "//input[@placeholder='登录密码']").send_keys('admin@123')
-            self.driver.find_element('xpath', "//input[@placeholder='验证码']").send_keys(get_pictures(
+            self.driver.find_element('xpath', "//input[@placeholder='验证码']").send_keys(fw_get_pictures(
                 self.driver, 'xpath', "//img[@class='ng-star-inserted']"))
             self.driver.find_element('xpath', "//button[@class='login-form-button ant-btn ant-btn-primary']").click()
             time.sleep(3)
@@ -32,8 +32,7 @@ class login:
             # return self.driver
 
         except Exception as e:
-            # print(e)
-            self.driver.refresh()
+            print(e)
             time.sleep(2)
             self.setDriver(testAPI)
         finally:

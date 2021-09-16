@@ -7180,7 +7180,31 @@ body.skin-3 {
 <script src="./js/echarts.min.js"></script>
 <script src="./js/chosen.jquery.js"></script>
 <script type="text/javascript">
-    var resultData = ${resultData};
+    var resultData = {
+    "testResult": [
+        {
+            "CaseNo": 1,
+            "module": "test1",
+            "tittle": "百度搜索测试1",
+            "ExceptResult": "wdnmd<br>",
+            "status": "Fail",
+            "log": "<img src=../Report/FailedPictures/百度搜索测试1_2021-09-16_105343.png height='800' width='1422'/>",
+            "spendTime": "15s"
+        }
+    ],
+    "testPass": 0,
+    "testAll": 1,
+    "testError": 1,
+    "testSkip": 0,
+    "beginTime": "2021-09-16 10:53:19",
+    "totalTime": "31s",
+    "query_total_count": 1,
+    "query_lable_count": 1,
+    "query_lable_percent": "100.00%",
+    "testVersion": "v1.1.0",
+    "testAPI": "https://www.baidu.com",
+    "testName": "FW"
+};
     function details(obj) {
         if ($(obj).text() == '查看截图') {
             var len = $(obj).parent().parent().children().length;

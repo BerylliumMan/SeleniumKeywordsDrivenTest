@@ -2,22 +2,23 @@
 from RunTest.RunCases import runCase
 
 """
-loginMode: 0,执行每个用例后关闭浏览器并重新打开
-           1,执行所有用例只登录一次
-driver: FW,防火墙
-        非防护墙
+loginMode: 0,执行一个用例后关闭浏览器并重新打开,需要登录的产品在RunCases.py第46行后加入单独写的登录操作
+           1,执行一个用例后回到首页
+driver: other，无需登录的产品填写ohter,需要登录的产品可自行添加driver
 testVersion: 测试版本号
-testAPI：ip地址
-testName：项目名称
-filename :测试用例文件
+testAPI: ip地址
+testName: 项目名称
+filename: 测试用例文件
+index: 执行完一条用例后回到的页面
 """
 
-loginMode = 1  # 非防火墙项目请使用1，并自行添加用户登录用例
-driver = 'FW'
-testVersion = 'v1.1.0.3'
-testAPI = 'https://192.168.11.178'
-testName = '工业防火墙'
-filename = './Cases/testCases.xlsx'
+loginMode = 1
+driver = 'other'
+testVersion = 'v1.1.0'
+testAPI = 'https://www.baidu.com'
+testName = 'FW'
+filename = './Cases/testCases_fw.xlsx'
+index = 'https://www.baidu.com'  # 执行完一条用例后回到首页
 
 runCase().test_Case(
                     loginMode=loginMode,
@@ -25,5 +26,6 @@ runCase().test_Case(
                     testVersion=testVersion,
                     testAPI=testAPI,
                     testName=testName,
-                    filename=filename
+                    filename=filename,
+                    index=index
                     )

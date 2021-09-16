@@ -56,13 +56,13 @@ def get_Cases(filename):
                 else:
                     value = module
             case.append(value)
-            if count == 9:
+            if count == 6:
                 count = 0
                 cases.append(case)
                 case = []
     return cases
 
 if __name__ == '__main__':
-    get_Cases('./testCases.xlsx')
+    get_Cases('./testCases_IPSec.xlsx')
 
 
