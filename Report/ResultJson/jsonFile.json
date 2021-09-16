@@ -7,7 +7,7 @@
             "ExceptResult": "wdnmd<br>",
             "status": "Success",
             "log": "<p>执行成功</p>",
-            "spendTime": "14s"
+            "spendTime": "6s"
         },
         {
             "CaseNo": 1,
@@ -15,16 +15,16 @@
             "tittle": "百度搜索测试1",
             "ExceptResult": "wdnmd<br>",
             "status": "Fail",
-            "log": "<img src=../Report/FailedPictures/百度搜索测试1_2021-09-16_105500.png height='800' width='1422'/>",
-            "spendTime": "14s"
+            "log": "<img src=../Report/FailedPictures/百度搜索测试1_2021-09-16_111220.png height='800' width='1422'/>",
+            "spendTime": "31s"
         }
     ],
     "testPass": 1,
     "testAll": 2,
     "testError": 1,
     "testSkip": 0,
-    "beginTime": "2021-09-16 10:54:20",
-    "totalTime": "45s",
+    "beginTime": "2021-09-16 11:11:30",
+    "totalTime": "106s",
     "query_total_count": 2,
     "query_lable_count": 2,
     "query_lable_percent": "100.00%",
